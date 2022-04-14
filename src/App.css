@@ -7,6 +7,31 @@
   pointer-events: none;
 }
 
+.big-square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.small-square {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.display-ib {
+  display: inline-block;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
