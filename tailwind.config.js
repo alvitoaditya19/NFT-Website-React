@@ -4,6 +4,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'color-pink': '#C93D8D',
+      },
       fontFamily: {
         'poppins': ['Poppins'],
       }

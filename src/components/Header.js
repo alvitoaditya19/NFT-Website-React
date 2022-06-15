@@ -1,10 +1,12 @@
-import React from "react";;
+import React from "react";
+import Navbar from "./Navbar";
 
 function Header() {
   return (
     <>
       <div className="container-fluid bg-[#120227] lg:-m-16 -m-0 lg:pt-20 pt-12">
-        <div class="container">
+        <Navbar/>
+        <div class="container lg:mt-10 mt-3">
           <div className="row justify-center items-center">
             <div className="col-lg-5">
               <h1 className="text-white">
