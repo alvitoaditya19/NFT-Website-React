@@ -3,5 +3,8 @@ import Category2 from './img-two.png';
 import Category3 from './img-three.png';
 import Category4 from './img-four.png';
 
+import SigninThumbnail from './img-signin.png';
 
-export {Category1, Category2, Category3, Category4};
+
+
+export {Category1, Category2, Category3, Category4, SigninThumbnail};

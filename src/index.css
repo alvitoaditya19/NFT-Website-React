@@ -17,6 +17,37 @@ nav.navbar-light .navbar-toggler{
   border-radius: 0px 20px 0px 20px;
 }
 
+.sign-in input[type=form]{
+    background: #321655;
+    border-radius: 10px;
+    border-color: #321655;
+}
+
+.sign-in input[type=form]:focus{
+    background: #321655;
+    border-radius: 10px;
+    border: 3px solid #C93D8D;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sign-in input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 24px; 
+    height: 24px;
+    font-size: 14px;
+    background-color:#321655;
+    padding-left:4px;
+    border: 3px solid #ffffff;
+}
+
+.sign-in input[type=checkbox]:checked:after {
+    position: relative;
+    color: #ffffff;
+    content: "\2713";
+    justify-content:center;
+}
 /* Footer */
 footer{
     padding-top: 5rem;
@@ -37,3 +68,4 @@ footer ul li a:hover{
     text-decoration: underline !important;
     background-color: transparent;
 }
+

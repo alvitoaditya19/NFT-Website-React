@@ -1,12 +1,11 @@
 import Head from "../../components/Head";
 import Header from "../../components/Header";
 import Jscript from "../../components/Jscript";
-import Navbar from "../../components/Navbar";
 
 import Category from "../../components/Category";
+import Footer from "../../components/Footer";
 import PopularItem from "../../components/PopularItem";
 import Poster from "../../components/Poster";
-import Footer from "../../components/Footer";
 
 
 const LandingPage = () => {

@@ -3,6 +3,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "bootstrap/dist/js/bootstrap.min.js";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -26,18 +27,25 @@ function Navbar() {
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-nav ms-auto">
-          <a class="nav-item nav-link text-white text-xl mr-9" href="#">
-            Explore <span class="sr-only">(current)</span>
-          </a>
+          <Link style={{textDecoration: 'none'}} to="/"> 
+            <h1 class="nav-item nav-link text-white text-xl mr-9">
+              Explore
+            </h1>
+          </Link>
           <a class="nav-item nav-link text-white text-xl mr-9" href="#">
             Stats
           </a>
-          <a class="nav-item nav-link text-white text-xl mr-9" href="#">
-            Help
-          </a>
-          <button class="bg-[#4D415D] text-white hover:bg-[#C93D8D] text-button-navbar font-medium py-2 px-8 text-xl rounded-lg">
-            Button
-          </button>
+          <Link style={{textDecoration: 'none'}} to="/help"> 
+            <a class="nav-item nav-link text-white text-xl mr-9">
+              Help
+            </a>
+          </Link>
+          <Link style={{textDecoration: 'none'}} to="/login"> 
+            <button class="bg-[#4D415D] text-white hover:bg-[#C93D8D] text-button-navbar font-medium py-2 px-8 text-xl rounded-lg">
+              Login
+            </button>
+          </Link>
+
         </div>
       </div>
     </nav>
